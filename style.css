@@ -1,0 +1,20 @@
+.hidden {
+  display: none;
+}
+
+.section-a {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}
+
+.section-b {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+}
+
+
+.button{
+  color: brown;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio Cuatro</title>
+  </head>
+  <body>
+    <!--Seleccionando Geek Girl
+Hay que crear una página HTML que contenga un listado con tu nombre y el de tu
+compañera, y un título que diga "La Geek Girl seleccionada es: ". Usando JavaScript,
+tenemos que cambiar el título añadiendo el nombre del primer li.-->
+    <h1 class="titulo">La Geek Girl seleccionada es:</h1>
+    <ul>
+      <li class="participanteUno">Luisa Villa</li>
+      <li class="participanteDos">Paola Hernandez</li>
+    </ul>
+
+    <script type="text/javascript">
+      "use strict";
+      const ganadora = document.querySelector(".titulo");
+      const participanteUno = document.querySelector(".participanteUno");
+      const participanteDos = document.querySelector(".participanteDos");
+
+      //Cambiamos su contenido
+      ganadora.innerHTML = ganadora.innerHTML + participanteUno.innerHTML;
+    </script>
+  </body>
+</html>
